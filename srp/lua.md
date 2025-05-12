@@ -224,8 +224,6 @@ The response format is:
 }
 ```
 
-This is an async function. Use `LLM(triggerId, data):await()` to wait for the result.
-
 ### `simpleLLM(triggerId, message)`
 
 > This function requires low level access.
@@ -240,8 +238,6 @@ The response format is:
     result = "response message",
 }
 ```
-
-This is an async function. Use `simpleLLM(triggerId, message):await()` to wait for the result.
 
 
 ## Tips
